@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.yellowBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    height: 70vh;
+    width: 100vw;
+    background-color: #ffdd00;
+}
+.yellowBox h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.redBox{
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    
+    background-color: #f62b2b;
+}
+.triangle{
+    position:absolute;
+    left: calc(50% - 150px);
+    width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 60px solid #ffdd00;
+}
+.circle{
+    display: grid;
+    place-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(198, 196, 131);
+    border-radius: 50%;
+}
+.circle h2{
+    font-size: 3rem;
+    color: rgb(215, 215, 74);
+}
